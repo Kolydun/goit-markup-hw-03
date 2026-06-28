@@ -1,8 +1,5 @@
-.portfolio-item {
-  max-width: 360px;
-}
-
 .portfolio-title {
+  margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -10,10 +7,31 @@
   color: #2e2f42;
 }
 
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+}
+
+.portfolio-item {
+  flex-basis: calc((100% - 48px) / 3);
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
 .portfolio-name {
+  margin-top: 32px;
+  margin-bottom: 8px;
+  padding: 0 16px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.portfolio-text {
+  padding: 0 16px 32px;
 }
