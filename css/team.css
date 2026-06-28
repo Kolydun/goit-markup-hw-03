@@ -11,6 +11,7 @@
 }
 
 .team-card {
+  max-width: 264px;
   background-color: #fff;
 }
 
